@@ -4,14 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>jia.su</Authors>
     <Description>Avatar Project Dal Entites</Description>
-    <AssemblyVersion>1.0.4.0</AssemblyVersion>
-    <FileVersion>1.0.4.0</FileVersion>
-    <PackageReleaseNotes>增加EASSchoolGrade</PackageReleaseNotes>
-    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.7.0</AssemblyVersion>
+    <FileVersion>1.0.7.0</FileVersion>
+    <PackageReleaseNotes>增加XTHomeworkStudentExercise</PackageReleaseNotes>
+    <Version>1.0.7</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="XFramework.Dal" Version="1.0.0" />
+    <PackageReference Include="XFramework.Configuration.Client" Version="1.0.3" />
+    <PackageReference Include="XFramework.Dal" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
