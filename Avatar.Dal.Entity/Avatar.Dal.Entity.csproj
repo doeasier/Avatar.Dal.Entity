@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>jia.su</Authors>
     <Description>Avatar Project Dal Entites</Description>
-    <AssemblyVersion>1.0.7.0</AssemblyVersion>
-    <FileVersion>1.0.7.0</FileVersion>
-    <PackageReleaseNotes>增加XTHomeworkStudentExercise</PackageReleaseNotes>
-    <Version>1.0.7</Version>
+    <AssemblyVersion>1.0.8.0</AssemblyVersion>
+    <FileVersion>1.0.8.0</FileVersion>
+    <PackageReleaseNotes>增加XTExercise</PackageReleaseNotes>
+    <Version>1.0.9</Version>
   </PropertyGroup>
 
   <ItemGroup>
