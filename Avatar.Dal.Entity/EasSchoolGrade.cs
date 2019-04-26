@@ -10,7 +10,7 @@ namespace Avatar.Dal.Entity
     [Database(Name = "EZLearnDB")]
     public class EasSchoolGrade
     {
-        [Column(Name = "ID", PrimaryKey =true, ColumnType = DbType.Int32)]
+        [Column(Name = "ID", PrimaryKey =true, ColumnType = DbType.AnsiString)]
         public string Id { get; set; }
 
         /// <summary>
