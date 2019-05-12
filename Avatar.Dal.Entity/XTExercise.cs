@@ -28,7 +28,7 @@ namespace Avatar.Dal.Entity
         /// <summary>
         /// 是否是变式题
         /// </summary>
-        [Column(Name = "is_change", ColumnType = DbType.Int32)]
+        [Column(Name = "ischange", ColumnType = DbType.Int32)]
         public int? IsChange { get; set; }
     }
 }

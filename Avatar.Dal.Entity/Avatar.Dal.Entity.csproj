@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>jia.su</Authors>
     <Description>Avatar Project Dal Entites</Description>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <PackageReleaseNotes>增加XTHomeworkReviewDetail</PackageReleaseNotes>
-    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.7.0</AssemblyVersion>
+    <FileVersion>1.1.7.0</FileVersion>
+    <PackageReleaseNotes>增加老师课程视图、增加老师学生视图. 修复视图问题</PackageReleaseNotes>
+    <Version>1.1.7</Version>
   </PropertyGroup>
 
   <ItemGroup>
