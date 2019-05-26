@@ -32,5 +32,11 @@ namespace Avatar.Dal.Entity
         /// </summary>
         [Column(Name = "relation_id", ColumnType = DbType.AnsiString)]
         public string RelationId { get; set; }
+
+        /// <summary>
+        /// 关系Id
+        /// </summary>
+        [Column(Name = "employee_id", ColumnType = DbType.AnsiString)]
+        public string EmployeeId { get; set; }
     }
 }
