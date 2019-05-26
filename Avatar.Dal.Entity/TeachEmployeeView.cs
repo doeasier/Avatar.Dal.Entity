@@ -36,5 +36,17 @@ namespace Avatar.Dal.Entity
         /// </summary>
         [Column(Name = "class_id", ColumnType = DbType.AnsiString)]
         public string ClassId { get; set; }
+
+        /// <summary>
+        /// 课程ID
+        /// </summary>
+        [Column(Name = "ba_subject_id", ColumnType = DbType.AnsiString)]
+        public string SubjectId { get; set; }
+
+        /// <summary>
+        /// 课程ID
+        /// </summary>
+        [Column(Name = "school_id", ColumnType = DbType.AnsiString)]
+        public string SchoolId { get; set; }
     }
 }
