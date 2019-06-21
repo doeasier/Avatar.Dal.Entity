@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>jia.su</Authors>
     <Description>Avatar Project Dal Entites</Description>
-    <AssemblyVersion>1.1.11.0</AssemblyVersion>
-    <FileVersion>1.1.11.0</FileVersion>
-    <PackageReleaseNotes>变式题新增employeeid</PackageReleaseNotes>
-    <Version>1.1.11</Version>
+    <AssemblyVersion>1.1.20.0</AssemblyVersion>
+    <FileVersion>1.1.20.0</FileVersion>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Version>1.1.21</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -14,6 +14,12 @@ namespace Avatar.Dal.Entity
         public string Id { get; set; }
 
         /// <summary>
+        /// 作业Id
+        /// </summary>
+        [Column(Name = "xt_homework_id", ColumnType = DbType.AnsiString)]
+        public string HomeworkId { get; set; }
+
+        /// <summary>
         /// 习题Id
         /// </summary>
         [Column(Name = "xt_exercises_id", ColumnType = DbType.AnsiString)]

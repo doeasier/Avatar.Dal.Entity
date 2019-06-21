@@ -19,5 +19,20 @@ namespace Avatar.Dal.Entity
 
         [Column(Name = "sort_code", ColumnType = DbType.AnsiString)]
         public string SortCode { get; set; }
+
+        [Column(Name = "chapter_type", ColumnType = DbType.Int32)]
+        public int? ChapterType { get; set; }
+
+        [Column(Name = "parent_id", ColumnType = DbType.AnsiString)]
+        public string ParentId { get; set; }
+
+        [Column(Name = "material_id", ColumnType = DbType.AnsiString)]
+        public string MaterialId { get; set; }
+
+        [Column(Name = "chapter_name", ColumnType = DbType.AnsiString)]
+        public string ChapterName { get; set; }
+
+        [Column(Name = "employee_id", ColumnType = DbType.AnsiString)]
+        public string EmployeeId { get; set; }
     }
 }

@@ -38,13 +38,19 @@ namespace Avatar.Dal.Entity
         public string ClassId { get; set; }
 
         /// <summary>
-        /// 课程ID
+        /// 学科ID
         /// </summary>
         [Column(Name = "ba_subject_id", ColumnType = DbType.AnsiString)]
         public string SubjectId { get; set; }
 
         /// <summary>
-        /// 课程ID
+        /// 学科名称
+        /// </summary>
+        [Column(Name = "course_name", ColumnType = DbType.AnsiString)]
+        public string SubjectName { get; set; }
+
+        /// <summary>
+        /// 学校ID
         /// </summary>
         [Column(Name = "school_id", ColumnType = DbType.AnsiString)]
         public string SchoolId { get; set; }
