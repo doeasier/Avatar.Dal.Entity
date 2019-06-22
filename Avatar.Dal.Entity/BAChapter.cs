@@ -34,5 +34,14 @@ namespace Avatar.Dal.Entity
 
         [Column(Name = "employee_id", ColumnType = DbType.AnsiString)]
         public string EmployeeId { get; set; }
+
+        [Column(Name = "sequence", ColumnType = DbType.Int32)]
+        public int? Sequence { get; set; }
+
+        [Column(Name = "isok", ColumnType = DbType.Int32)]
+        public int? IsOK { get; set; }
+
+        [Column(Name = "enabled", ColumnType = DbType.Int32)]
+        public int? Enabled { get; set; }
     }
 }
