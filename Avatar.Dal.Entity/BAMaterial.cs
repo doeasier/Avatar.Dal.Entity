@@ -49,5 +49,11 @@ namespace Avatar.Dal.Entity
         /// </summary>
         [Column(Name = "Enabled", ColumnType = DbType.Int32)]
         public int? Enabled { get; set; }
+
+        /// <summary>
+        /// 教材名称
+        /// </summary>
+        [Column(Name = "Section_Id", ColumnType = DbType.AnsiString)]
+        public string SectionId { get; set; }
     }
 }

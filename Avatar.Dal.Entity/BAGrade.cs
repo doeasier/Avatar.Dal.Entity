@@ -24,7 +24,7 @@ namespace Avatar.Dal.Entity
         /// 排序值
         /// </summary>
         [Column(Name = "SortCode", ColumnType = DbType.Int32)]
-        public int? ShortCode { get; set; }
+        public int? SortCode { get; set; }
 
         /// <summary>
         /// 备注
@@ -61,5 +61,8 @@ namespace Avatar.Dal.Entity
         /// </summary>
         [Column(Name = "ModifyDate", ColumnType = DbType.DateTime)]
         public DateTime? ModifyDate { get; set; }
+
+        [Column(Name = "Section_Id", ColumnType = DbType.AnsiString)]
+        public string SectionId { get; set; }
     }
 }
